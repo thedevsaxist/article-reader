@@ -11,6 +11,7 @@
     ],
   },
   "files": [
+    { "path": "Article-Reader-Info.plist" },
     { "kind": "folder", "path": "Article Reader", "target-membership": [ "Article Reader" ] },
     {
       "kind": "group",
@@ -38,6 +39,8 @@
         "ENABLE_PREVIEWS": "YES",
         "ENABLE_USER_SELECTED_FILES": "readonly",
         "GENERATE_INFOPLIST_FILE": "YES",
+        "INFOPLIST_FILE": "Article-Reader-Info.plist",
+        "INFOPLIST_KEY_LSApplicationCategoryType": "",
         "INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]": "YES",
         "INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]": "YES",
         "INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]": "YES",
